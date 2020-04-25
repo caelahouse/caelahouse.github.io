@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #B80F0A;
+  border: 1px solid #B80F0A;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #B80F0A;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #5E1914;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #B80F0A;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #B80F0A;
   }
 }
 
@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/20190721_203101.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -146,20 +146,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #B80F0A;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #5E1914;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #5E1914;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #5E1914 !important;
 }
 
 .about-section {
@@ -182,7 +182,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #B80F0A;
   }
 }
 
@@ -196,7 +196,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #B80F0A;
     border-width: .25rem;
     width: 30%;
   }
@@ -204,7 +204,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/IMG_beach.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -228,7 +228,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #B80F0A;
 }
 
 .contact-section .card h4 {
@@ -239,7 +239,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #B80F0A;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,12 +272,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #B80F0A;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #5E1914;
 }
 
 .bg-black {
@@ -285,11 +285,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #B80F0A !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #B80F0A !important;
 }
 
 footer {
