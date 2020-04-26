@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/sunset.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url(../img/sunset.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -140,7 +140,7 @@
   padding: 1.25rem 2rem;
   font-family: 'Varela Round';
   font-size: 80%;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: .15rem;
   border: 0;
 }
@@ -167,8 +167,14 @@
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
+.about-section img {
+  position: relative;
+  background-image: url(../img/me.png);
+}
+
 .about-section p {
   margin-bottom: 5rem;
+  
 }
 
 .projects-section {
@@ -204,7 +210,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/beach.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(../img/beach.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -217,7 +223,7 @@
   height: auto;
   font-family: 'Varela Round';
   font-size: 80%;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.15rem;
   border: 0;
 }
@@ -234,7 +240,7 @@
 .contact-section .card h4 {
   font-size: 0.8rem;
   font-family: 'Varela Round';
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.15rem;
 }
 
