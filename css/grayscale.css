@@ -162,16 +162,27 @@
   background-color: #5E1914 !important;
 }
 
-
-.about-section {
-  padding-top: 5rem;
+.about-section{
+  padding-top: 24rem;
   background: url(../img/me.png), linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background-repeat: repeat-y;
+  background-position: right;
 }
 
+.about-section h2{
+  margin-bottom:0rem;
+}
 
 .about-section p {
+  margin-top: 0rem;
   margin-bottom: 15rem;
-  
+  }
+
+@media (min-width: 992px) {
+  .about-section .about-section h2 .about-section p{
+    padding: 0 0 0 2rem;
+    border-left:0.5rem solid #B80F0A;
+  }
 }
 
 .projects-section {
