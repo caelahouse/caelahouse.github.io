@@ -112,6 +112,13 @@
   font-size: 1rem;
 }
 
+.masthead2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
