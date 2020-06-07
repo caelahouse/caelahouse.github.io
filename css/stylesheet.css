@@ -1,0 +1,38 @@
+<head>
+	<title>Micaela House</title>
+		<style type="text/css">
+		
+@import url(site.css);
+@import url(navbar.css);
+@import url(footer.css);
+body {background: (44, 50, 56)}
+</style>
+</head>
+
+@font-face {
+	font-family: Clicker Script, cursive;
+	font-family: Roboto, sans-serif;
+	src: url();
+}
+
+div {
+	font-family: Clicker Script;
+}
+
+#nav {
+text-align:center;
+}
+#nav li {
+display:inline;
+}
+#nav a {
+text-decoration:none; 
+padding:0 30px; /* variable width */
+}
+
+
+<style>
+.center {
+ text-align: center
+}
+</style>
