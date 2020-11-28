@@ -1,45 +1,18 @@
-<head>
-	<title>Micaela House</title>
-		<style type="text/css">
-
-body {background: (44, 50, 56)}
-</style>
-</head>
-
-
 #nav {
-text-align:center;
+	text-align:center;
 }
 
 #nav li {
-display:inline;
+	display:inline;
 }
 
 #nav a {
-text-decoration: none; 
-padding:0 30px; /* variable width */
+	text-decoration: none; 
+	padding:0 30px; /* variable width */
 }
 
-.center {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
+h1.title {
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 56px;
 }
-
-.title h1{
-	text-align: center;
-	font-family: 'Clicker Script', cursive;
-}
-
-.subtitle p{
-	font-family: 'Roboto', sans-serif;
-}
-
-
-
-
-
-
-
-
